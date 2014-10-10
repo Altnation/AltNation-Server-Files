@@ -3583,7 +3583,7 @@ class Mission
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Donator Shop Tier 1"",life_fnc_weaponShopMenu,""don1"",0,false,false,"""",' license_civ_don1 && playerSide == civilian'];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Donator Shop Tier 1"",life_fnc_weaponShopMenu,""don1"",0,false,false,"""",' license_civ_don1 && playerSide == civilian']; this allowDamage false; this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""don1"",civilian,[""don_1"",""don_1_1""],""Donator tier 1 vehicle store""],0,false,false,"""",'license_civ_don1'];";
 				};
 				class Item1
 				{
@@ -9545,7 +9545,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=220;
+		items=222;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -10411,7 +10411,7 @@ class Mission
 			position[]={3764.394,34.275726,12364.51};
 			name="civ_truck_1";
 			type="Empty";
-			angle=131.83951;
+			angle=131.84;
 		};
 		class Item111
 		{
@@ -11280,6 +11280,20 @@ class Mission
 			text="Donator Shops";
 			type="mil_dot";
 			colorName="ColorYellow";
+		};
+		class Item220
+		{
+			position[]={14252.801,3.5302625,13047.058};
+			name="don_1_1";
+			type="Empty";
+			angle=174.88545;
+		};
+		class Item221
+		{
+			position[]={14250.821,3.5170667,13047.058};
+			name="don_1";
+			type="Empty";
+			angle=173.56511;
 		};
 	};
 };
