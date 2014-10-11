@@ -146,7 +146,7 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["C_Hatchback_01_sport_F",150000]
+			["C_Hatchback_01_sport_F",100000]
 		];
 	};
 };

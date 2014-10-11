@@ -3583,7 +3583,7 @@ class Mission
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Donator Shop Tier 1"",life_fnc_weaponShopMenu,""don1"",0,false,false,"""",' license_civ_don1 && playerSide == civilian']; this allowDamage false; this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""don1"",civilian,[""don_1"",""don_1_1""],""Donator tier 1 vehicle store""],0,false,false,"""",'license_civ_don1'];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Donator Shop Tier 1"",life_fnc_weaponShopMenu,""don1"",0,false,false,"""",' license_civ_don1 && playerSide == civilian']; this allowDamage false; this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""don1"",civilian,[""don_1"",""don_1_1""],""Vehicle store""],0,false,false,"""",'license_civ_don1'];";
 				};
 				class Item1
 				{
@@ -11248,7 +11248,7 @@ class Mission
 		{
 			position[]={863.31653,-0.012322679,28850.873};
 			name="TeamSpeak";
-			text="TeamSpeak IP: 85.236.100.32:12247";
+			text="TeamSpeak IP: 81.19.211.153";
 			type="flag_USA";
 		};
 		class Item216
