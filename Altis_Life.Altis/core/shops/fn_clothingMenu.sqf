@@ -11,7 +11,7 @@ createDialog "Life_Clothing";
 disableSerialization;
 
 //Cop / Civ Pre Check
-if((_this select 3) in ["bruce","dive","reb","kart","donator"] && playerSide != civilian) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};
+if((_this select 3) in ["bruce","dive","reb","kart"] && playerSide != civilian) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};
 if((_this select 3) == "reb" && !license_civ_rebel) exitWith {hint localize "STR_Shop_NotaReb"; closeDialog 0;};
 if((_this select 3) in ["cop"] && playerSide != west) exitWith {hint localize "STR_Shop_NotaCop"; closeDialog 0;};
 if((_this select 3) in ["dive"] && !license_civ_dive) exitWith { hint localize "STR_Shop_NotaDive"; closeDialog 0;};
@@ -162,12 +162,6 @@ if((life_clothing_purchase select 4) == -1) then
 			{[_x,true,true] call life_fnc_handleItem;} foreach life_oldBackpackItems;
 		};
 	};
-
-		//Hotfix in for cop gear
-		if(playerSide == west) then
-		{
-			[] call life_fnc_saveGear;
-		};
 };
 
 life_clothing_purchase = [-1,-1,-1,-1,-1];

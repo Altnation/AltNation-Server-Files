@@ -85,10 +85,4 @@ switch (_var) do
 	case "license_civ_cement": {(localize "STR_License_Cement")};
 	case "license_med_air": {(localize "STR_License_Pilot")};
 	case "license_civ_home": {(localize "STR_License_Home")};
-	case "license_civ_combat": {"Combat License"};
-	case "license_civ_don1": {"Donator Tier 1"};
-	case "license_civ_don2": {"Donator Tier 2"};
-	case "license_civ_don3": {"Donator Tier 3"};
-	case "license_civ_don4": {"Donator Tier 4"};
-	case "license_civ_don5": {"Donator Tier 5"};
 };

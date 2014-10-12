@@ -1,5 +1,5 @@
-56author = "Tonic";
-onLoadName = "Altis Life RPG v3.1.4.7";
+author = "Tonic";
+onLoadName = "Altis Life RPG v3.1.4.8";
 onLoadMission = "A RPG game mode developed by Tonic";
 joinUnassigned = 1;
 respawn = BASE;
@@ -47,13 +47,6 @@ class CfgSounds
 		titles[] = {};
 	};
 	
-	class MedicSiren
-	{
-		name = "MedicSiren";
-		sound[] = {"\sounds\Medic_Siren.ogg"};
-		titles[] = {};
-	};
-	
 	class tazersound
 	{
 		name = "Tazersound";
@@ -65,20 +58,6 @@ class CfgSounds
 	{
 		name = "flashbang";
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
-		titles[] = {};
-	};
-	
-	class unlock
-	{
-		name = "unlock";
-		sound[] = {"\sounds\unlock.ogg"};
-		titles[] = {};
-	};
-	
-	class car_lock
-	{
-		name = "car_lock";
-		sound[] = {"\sounds\car_lock.ogg"};
 		titles[] = {};
 	};
 };

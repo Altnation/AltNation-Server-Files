@@ -40,13 +40,6 @@ switch (_mode) do
 			case "cement": {_var = "license_civ_cement"};
 			case "mair": {_var = "license_med_air"};
 			case "home": {_var = "license_civ_home"};
-			case "combat": {_var = "license_civ_combat"};
-			//AltNation Donation System
-			case "don1": {_var = "license_civ_don1"};
-			case "don2": {_var = "license_civ_don2"};
-			case "don3": {_var = "license_civ_don3"};
-			case "don4": {_var = "license_civ_don4"};
-			case "don5": {_var = "license_civ_don5"};
 			default {_var = ""};
 		};
 	};

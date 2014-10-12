@@ -25,8 +25,9 @@ switch (_shop) do
 	{
 		_return = [
 			["C_Offroad_01_F",10000],
-			["C_SUV_01_F",25000],
-			["B_MRAP_01_F",35000]
+			["I_Truck_02_medical_F",25000],
+			["O_Truck_03_medical_F",45000],
+			["B_Truck_01_medical_F",60000]
 		];
 	};
 	
@@ -48,6 +49,7 @@ switch (_shop) do
 			["C_Van_01_transport_F",40000]
 		];
 	};
+	
 	case "civ_truck":
 	{
 		_return =
@@ -60,7 +62,7 @@ switch (_shop) do
 			["O_Truck_03_covered_F",250000],
 			["B_Truck_01_box_F",350000],
 			["O_Truck_03_device_F",450000]
-		];
+		];	
 	};
 	
 	
@@ -73,6 +75,12 @@ switch (_shop) do
 			["O_MRAP_02_F",150000],
 			["B_Heli_Light_01_F",325000]
 		];
+		
+		if(license_civ_rebel) then
+		{
+			_return pushBack
+			["B_G_Offroad_01_armed_F",750000];
+		};
 	};
 	
 	case "cop_car":
@@ -93,8 +101,7 @@ switch (_shop) do
 		_return =
 		[
 			["B_Heli_Light_01_F",253000],
-			["O_Heli_Light_02_unarmed_F",750000],
-			["I_Heli_light_03_unarmed_F",nil,1000000]
+			["O_Heli_Light_02_unarmed_F",750000]
 		];
 	};
 	
@@ -139,14 +146,6 @@ switch (_shop) do
 			["C_Boat_Civil_01_police_F",20000],
 			["B_Boat_Armed_01_minigun_F",75000],
 			["B_SDV_01_F",100000]
-		];
-	};
-	
-	case "don1":
-	{
-		_return =
-		[
-			["C_Hatchback_01_sport_F",100000]
 		];
 	};
 };

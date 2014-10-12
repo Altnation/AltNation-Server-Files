@@ -199,7 +199,7 @@ switch (_code) do
 					[[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
 				} else {
 					//I do not have a custom sound for this and I really don't want to go digging for one, when you have a sound uncomment this and change medicSiren.sqf in the medical folder.
-					[[_veh],"life_fnc_medicSiren",nil,true] spawn life_fnc_MP;
+					//[[_veh],"life_fnc_medicSiren",nil,true] spawn life_fnc_MP;
 				};
 			};
 		};
@@ -239,7 +239,6 @@ switch (_code) do
 							[[_veh,0],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 						};
 						systemChat localize "STR_MISC_VehUnlock";
-						_veh say3D "unlock";
 					} else {
 						if(local _veh) then {
 							_veh lock 2;
@@ -247,30 +246,11 @@ switch (_code) do
 							[[_veh,2],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 						};	
 						systemChat localize "STR_MISC_VehLock";
-						_veh say3D "car_lock";
 					};
 				};
 			};
 		};
 	};
-	
-		
-
-    // CIV WANTED LIST
-    // CWY Elektro & CWY RevZItsDaveo
-    // Not for Redistribution \\
-     //Wanted List Shift + 6
-            case 7:
-            {
-                    if(_shift) then {_handled = true;};
-                    if (_shift) then
-                    {
-                            if(!_alt && !_ctrlKey && !dialog) then
-                            {
-                                    [] call life_fnc_wantedMenu; //Call WantedList Dialog
-                            };
-                    };
-            };
 };
 
 _handled;

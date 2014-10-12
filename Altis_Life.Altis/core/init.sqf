@@ -64,13 +64,6 @@ switch (playerSide) do
 		_handle = [] spawn life_fnc_initMedic;
 		waitUntil {scriptDone _handle};
 	};
-	
-	case sideLogic:
-	{
-		_handle = [] spawn life_fnc_initZeus;
-		
-		waitUntil {scriptDone _handle};
-	};
 };
 
 player setVariable["restrained",false,true];

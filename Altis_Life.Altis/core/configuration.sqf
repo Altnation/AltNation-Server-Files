@@ -24,15 +24,12 @@ life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
-life_respawn_timer = 0.25; //Scaled in minutes
+life_respawn_timer = 2; //Scaled in minutes
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
 life_removeWanted = false;
-life_god = false;
-life_frozen = false;
-life_markers = false;
-
+life_action_gathering = false;
 
 //Persistent Saving
 __CONST__(life_save_civ,FALSE); //Save weapons for civs?
@@ -82,8 +79,6 @@ __CONST__(life_impound_car,350);
 __CONST__(life_impound_boat,250);
 __CONST__(life_impound_air,850);
 life_istazed = false;
-//life_donator = 0;
-life_isdowned = false;
 life_my_gang = ObjNull;
 
 life_vehicles = [];
@@ -92,18 +87,18 @@ switch (playerSide) do
 {
 	case west: 
 	{
-		life_atmcash = 50000; //Starting Bank Money
-		life_paycheck = 10000; //Paycheck Amount
+		life_atmcash = 7000; //Starting Bank Money
+		life_paycheck = 500; //Paycheck Amount
 	};
 	case civilian: 
 	{
-		life_atmcash = 50000; //Starting Bank Money
-		life_paycheck = 5000; //Paycheck Amount
+		life_atmcash = 3000; //Starting Bank Money
+		life_paycheck = 350; //Paycheck Amount
 	};
 	
 	case independent: {
-		life_atmcash = 50000;
-		life_paycheck = 7500;
+		life_atmcash = 6500;
+		life_paycheck = 450;
 	};
 };
 
@@ -192,13 +187,7 @@ life_licenses =
 	["license_civ_salt","civ"],
 	["license_civ_cement","civ"],
 	["license_med_air","med"],
-	["license_civ_home","civ"],
-	["license_civ_combat","civ"],
-	["license_civ_don1","civ"],
-	["license_civ_don2","civ"],
-	["license_civ_don3","civ"],
-	["license_civ_don4","civ"],
-	["license_civ_don5","civ"]
+	["license_civ_home","civ"]
 ];
 
 //Setup License Variables

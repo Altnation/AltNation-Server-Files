@@ -5,14 +5,6 @@
 	Description:
 	Pardons the selected player.
 */
-	
-
-if(playerSide != west) exitWith
-{
-    hint "You are not a COP! You can not pardon people.";
-};
-
-
 private["_display","_list","_uid"];
 disableSerialization;
 

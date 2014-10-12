@@ -43,7 +43,6 @@ class Life_Client_Core
 		class initCop {};
 		class initMedic {};
 		class welcomeNotification {};
-		class initZeus {};
 	};
 	
 	class Admin
@@ -54,14 +53,6 @@ class Life_Client_Core
 		class admingetID {};
 		class adminMenu {};
 		class adminQuery {};
-		class adminSpectate {};
-		class adminTeleport {};
-		class adminTpHere {};
-		class adminDebugCon {};
-		class adminCompensate {};
-		class adminGodMode {};
-		class adminFreeze {};
-		class adminMarkers {};
 	};
 	
 	class Medical_System
@@ -112,14 +103,9 @@ class Life_Client_Core
 		class ticketAction {};
 		class packupSpikes {};
 		class storeVehicle {};
-		class robShops {}; //Rob the gas station script
 		class robAction {};
 		class captureHideout {};
 		class gather {};
-		class gatherCocaine {};
-		class gatherCannabis {};
-		class gatherHeroin {};
-		class suicideVest {};
 	};
 	
 	class Housing
@@ -159,10 +145,6 @@ class Life_Client_Core
 		class weaponShopCfg {};
 		class vehicleWeightCfg {};
 		class houseConfig {};
-		//...
-		class seizeCfg {};
-		//...
-		class updateClothing {};
 		
 		//Clothing Store Configs
 		class clothing_cop {};
@@ -170,7 +152,6 @@ class Life_Client_Core
 		class clothing_reb {};
 		class clothing_dive {};
 		class clothing_kart {};
-		class clothing_combat {};
 	};
 
 	class Player_Menu
@@ -268,7 +249,6 @@ class Life_Client_Core
 		class removeLicenses {};
 		class demoChargeTimer {};
 		class civLoadout {};
-		class handleDowned {};
 	};
 	
 	class Vehicle
@@ -303,7 +283,6 @@ class Life_Client_Core
 		class copSiren {};
 		class spikeStripEffect {};
 		class radar {};
-		//class copUniform {};
 		class questionDealer {};
 		class copInteractionMenu {};
 		class sirenLights {};
@@ -312,14 +291,8 @@ class Life_Client_Core
 		class repairDoor {};
 		class doorAnimate {};
 		class fedCamDisplay {};
-		class copEnter {};
 		class copLoadout {};
-		class copLoadGear {};		//Default Cop Loadout
-		class copFetchGear {};
-		//...
-		class seizePlayerWeapon {};
-		class seizePlayerWeaponAction {};
-		//...
+		class ticketPaid {};
 	};
 	
 	class Gangs
