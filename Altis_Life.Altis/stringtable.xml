@@ -5222,39 +5222,4 @@
 			<French>Sortir du véhicule</French>
 		</Key>
 	</Package>
-	<Package name="Smartphone">
-		<Key ID="STR_PM_Smartphone">
-			<Original>Smartphone</Original>
-		</Key>
-		<Key ID="STR_SMARTPHONE_TITLE">
-			<Original>Smartphone Menu</Original>
-		</Key>
-		<Key ID="STR_SMARTPHONE_PLAYERLISTTITLE">
-			<Original>Playerlist</Original>
-		</Key>
-		<Key ID="STR_SMARTPHONE_MESSAGETITLE">
-			<Original>News | of| When</Original>
-		</Key>
-		<Key ID="STR_SMARTPHONE_RANDOMTITLE">
-			<Original>Select a message to read</Original>
-		</Key>
-		<Key ID="STR_Global_Close">
-			<Original>Close</Original>
-		</Key>
-		<Key ID="STR_SMARTPHONE_SCHREIBEN">
-			<Original>Letter</Original>
-		</Key>
-		<Key ID="STR_SMARTPHONE_NOTRUF">
-			<Original>Emergency Call</Original>
-		</Key>
-		<Key ID="STR_SMARTPHONE_Absenden">
-			<Original>Send</Original>
-		</Key>
-		<Key ID="STR_SMARTPHONE_NACHRICHTTITLE">
-			<Original>Message:</Original>
-		</Key>
-		<Key ID="STR_SMARTPHONE_Notruftitle">
-			<Original>EMERGENCY CALLS | Abuse leads to BAN !</Original>
-		</Key>
-	</Package>
 </Project>
