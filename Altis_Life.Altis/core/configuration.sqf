@@ -84,6 +84,7 @@ life_my_gang = ObjNull;
 life_god = false;
 life_frozen = false;
 life_markers = false;
+life_smartphoneTarget = Objnull;
 
 life_vehicles = [];
 bank_robber = [];

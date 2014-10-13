@@ -107,6 +107,17 @@ class CfgFunctions
 			class keyManagement {};
 		};
 		
+		class GHBSystem
+		{
+			tag = "GHB";
+			class smartphone
+			{
+				file = "\life_server\Functions\Smartphone";
+				class handleMessages {};
+				class msgRequest {};
+			};
+		};
+		
 		class Housing
 		{
 			file = "\life_server\Functions\Housing";
