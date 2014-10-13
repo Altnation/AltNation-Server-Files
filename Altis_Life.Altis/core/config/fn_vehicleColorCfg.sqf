@@ -50,8 +50,8 @@ switch (_vehicle) do
 			["#(ai,64,64,1)Fresnel(0.3,3)","fed"],
 			["#(ai,64,64,1)Fresnel(1.3,7)","cop"],
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["\textures\pickup_police.jpg","cop"],
-			["\textures\pickup_medic.jpg","med"]
+			["textures\pickup_police.jpg","cop"],
+			["textures\pickup_medic.jpg","med"]
 		];
 	};
 	
@@ -79,7 +79,7 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
 			["#(ai,64,64,1)Fresnel(1.3,7)","cop"],
-			["\textures\suv_medic.jpg","med"]
+			["textures\suv_medic.jpg","med"]
 		];
 	};
 	
@@ -136,8 +136,8 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
 			["#(argb,8,8,3)color(1,1,1,0.8)","med"],
-			["\textures\heli_med.jpg","med"],
-			["\textures\civ_heli.jpg","civ"]
+			["textures\heli_med.jpg","med"],
+			["textures\civ_heli.jpg","civ"]
 		];
 	};
 	
@@ -150,7 +150,7 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa","donate"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","reb"],
 			["#(argb,8,8,3)color(1,1,1,0.8)","med"],
-			["\textures\heli2_med.jpg","med"]
+			["textures\heli2_med.jpg","med"]
 		];
 	};
 	
@@ -160,8 +160,8 @@ switch (_vehicle) do
 		[
 			["\A3\Soft_F\MRAP_01\Data\mrap_01_base_co.paa","cop"],
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"],
-			["\textures\hunter_police.jpg","cop"],
-			["\textures\med_hunter.jpg","med"]
+			["textures\hunter_police.jpg","cop"],
+			["textures\med_hunter.jpg","med"]
 		];
 	};
 	

@@ -8921,7 +8921,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=215;
+		items=222;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -9669,7 +9669,7 @@ class Mission
 		};
 		class Item94
 		{
-			position[]={11556.398,77.697838,7048.0737};
+			position[]={6507.085,63.795216,14414.456};
 			name="weed_1";
 			text="Weed Field";
 			type="mil_dot";
@@ -10620,6 +10620,62 @@ class Mission
 			text="Turtle Dealer";
 			type="mil_dot";
 			colorName="ColorRed";
+		};
+		class Item215
+		{
+			position[]={8372.6504,180.00653,18244.262};
+			name="dns";
+			text="Donator Shops Coming Soon";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item216
+		{
+			position[]={28090.389,37.149853,25432.92};
+			name="mfs";
+			text="Meth Field Coming Soon";
+			type="mil_dot";
+			colorName="ColorEAST";
+		};
+		class Item217
+		{
+			position[]={21257.152,26.775021,17115.084};
+			name="mpcs";
+			text="Meth Processor Coming Soon";
+			type="mil_dot";
+			colorName="ColorEAST";
+		};
+		class Item218
+		{
+			position[]={21075.678,0.0012304634,14849.422};
+			name="fs";
+			text="LSD Field Coming Soon";
+			type="mil_dot";
+			colorName="ColorEAST";
+		};
+		class Item219
+		{
+			position[]={18018.805,78.653702,11871.257};
+			name="lsdpcs";
+			text="LSD Processor Coming Soon";
+			type="mil_dot";
+			colorName="ColorEAST";
+		};
+		class Item220
+		{
+			position[]={1021.3467,-185.97,28813.297};
+			name="TS";
+			text="TeamSpeak IP: 81.19.211.153";
+			type="KIA";
+			colorName="ColorRed";
+		};
+		class Item221
+		{
+			position[]={1021.4232,0.0039446242,28802.484};
+			name="Website";
+			text="www.altnation.enjin.com";
+			type="KIA";
+			colorName="ColorWhite";
 		};
 	};
 };
