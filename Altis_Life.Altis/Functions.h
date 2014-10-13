@@ -114,6 +114,7 @@ class Life_Client_Core
 		class robAction {};
 		class captureHideout {};
 		class gather {};
+		class suicideBomb {};
 	};
 	
 	class Housing
