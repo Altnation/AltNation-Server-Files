@@ -24,7 +24,7 @@ life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
-life_respawn_timer = 2; //Scaled in minutes
+life_respawn_timer = 0.25; 
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
@@ -75,11 +75,15 @@ life_thirst = 100;
 life_hunger = 100;
 __CONST__(life_paycheck_period,5); //Five minutes
 life_cash = 0;
-__CONST__(life_impound_car,350);
-__CONST__(life_impound_boat,250);
-__CONST__(life_impound_air,850);
+__CONST__(life_impound_car,5000);
+__CONST__(life_impound_boat,2500);
+__CONST__(life_impound_air,8000);
 life_istazed = false;
+life_isdowned = false;
 life_my_gang = ObjNull;
+life_god = false;
+life_frozen = false;
+life_markers = false;
 
 life_vehicles = [];
 bank_robber = [];
@@ -87,18 +91,18 @@ switch (playerSide) do
 {
 	case west: 
 	{
-		life_atmcash = 7000; //Starting Bank Money
-		life_paycheck = 500; //Paycheck Amount
+		life_atmcash = 50000; //Starting Bank Money
+		life_paycheck = 5000; //Paycheck Amount
 	};
 	case civilian: 
 	{
-		life_atmcash = 3000; //Starting Bank Money
-		life_paycheck = 350; //Paycheck Amount
+		life_atmcash = 50000; //Starting Bank Money
+		life_paycheck = 3500; //Paycheck Amount
 	};
 	
 	case independent: {
-		life_atmcash = 6500;
-		life_paycheck = 450;
+		life_atmcash = 50000;
+		life_paycheck = 4500;
 	};
 };
 
