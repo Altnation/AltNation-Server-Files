@@ -7,9 +7,9 @@
 */
 private["_test"];
 if(vest player != "V_HarnessOGL_gry") exitWith {};
-[[0,format["Somebody will blow up in 30 seconds"]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+[[0,format["%1 will blow up in 30 seconds"]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 sleep 15;
-[[0,format["Somebody will blow up in 15 seconds"]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+[[0,format["%1 will blow up in 15 seconds"]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 sleep 15;
 [[0,format["%1 went Alah Akbhar!!",name player]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 
