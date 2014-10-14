@@ -20,7 +20,7 @@ tele={
 	(vehicle player) setpos [_pos select 0, _pos select 1, 0];
 	onMapSingleClick "";
 	openMap [false, false];
-	hint "You have now reached your desired destination.";
+	hint "You have teleported to your selected position";
 };
 openMap [true, false];
 onMapSingleClick "[_pos select 0, _pos select 1, _pos select 2] call tele";
