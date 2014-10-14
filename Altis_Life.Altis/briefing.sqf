@@ -79,8 +79,7 @@ player createDiarySubject ["controls","Controls"];
 				1. Hacking<br/>
 				2. Cheating<br/>
 				3. Exploiting (See 'Exploits')<br/>
-				4. Being kicked 3 or more times.<br/>
-				5. RDM or VDM 3 days<br/><br/>
+				4. Being kicked 3 or more times.<br/><br/>
 				"
 		]
 	];
