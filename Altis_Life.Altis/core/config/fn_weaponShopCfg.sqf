@@ -30,15 +30,13 @@ switch(_shop) do
 				["Altis Cop Shop",
 					[
 						["hgun_P07_snds_F","Stun Pistol",0],
-						["SMG_02_ACO_F",nil,0],
 						["Binocular",nil,0],
 						["ItemGPS",nil,0],
 						["ToolKit",nil,0],
 						["FirstAidKit",nil,0],
 						["Medikit",nil,0],
 						["NVGoggles_OPFOR",nil,0],
-						["16Rnd_9x21_Mag",nil,0],						
-						["30Rnd_9x21_Mag",nil,0]
+						["16Rnd_9x21_Mag",nil,0]
 					]
 				];
 			};
@@ -58,7 +56,7 @@ switch(_shop) do
 						["ToolKit",nil,250],
 						["FirstAidKit",nil,150],
 						["Medikit",nil,500],
-						["NVGoggles_INDEP",nil,1200],
+						["NVGoggles",nil,1200],
 						["B_FieldPack_ocamo",nil,3000]
 					]
 				];
