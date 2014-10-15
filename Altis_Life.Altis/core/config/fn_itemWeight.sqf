@@ -56,7 +56,5 @@ switch (_item) do
 	case "defusekit": {2};
 	case "storagesmall": {5};
 	case "storagebig": {10};
-	case "methu": {6};
-	case "methp": {3};
 	default {1};
 };

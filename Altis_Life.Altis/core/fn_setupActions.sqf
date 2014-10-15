@@ -17,17 +17,6 @@ switch (playerSide) do
 		// Suicide Bomb
         life_actions = life_actions + [player addAction["Active explosive vest",life_fnc_suicideBomb,"",0,false,false,"",
         'vest player == "V_HarnessOGL_gry" && alive player && playerSide == civilian && !life_istazed && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
-		//Gather Meth
-		life_actions = life_actions + [player addAction["Stehle Methzutaten",life_fnc_gatherMeth,"",0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "meth_area_1") < 150) && (vehicle player == player) && (life_carryWeight + (["methu"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		//Pickup Unprocessed Meth
-		life_actions = life_actions +
-		[player addAction["Pickup Unprocessed Meth",life_fnc_pickupItem,false,0,false,false,"",
-		' !isNull cursorTarget && (typeOf cursorTarget) == "Land_Suitcase_F" && ((cursorTarget getVariable "item") select 0) == "methu" && (player distance cursorTarget) < 3 && (life_carryWeight + (["methu"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		//Pickup Processed Meth
-		life_actions = life_actions +
-		[player addAction["Pickup Processed Meth",life_fnc_pickupItem,true,0,false,false,"",
-		' !isNull cursorTarget && (typeOf cursorTarget) == "Land_Suitcase_F" && ((cursorTarget getVariable "item") select 0) == "methp" && (player distance cursorTarget) < 3 && (life_carryWeight + (["methp"] call life_fnc_itemWeight)) <= life_maxWeight ']];
 	};
 	
 	case west:
